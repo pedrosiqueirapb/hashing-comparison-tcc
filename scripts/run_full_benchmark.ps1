@@ -46,7 +46,7 @@ function Run-John-And-Monitor {
     }
 
     # start John process
-    $proc = Start-Process -FilePath $johnPath -ArgumentList @($johnArgs) -PassThru -WindowStyle Hidden
+    $proc = Start-Process -FilePath $johnPath -ArgumentList @($johnArgs) -PassThru -WindowStyle Normal
     Start-Sleep -Seconds 1
     if (-not $proc) {
         Write-Warning "John não iniciou para $hashFile"
