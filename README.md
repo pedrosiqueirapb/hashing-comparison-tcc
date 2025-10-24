@@ -2,8 +2,6 @@
 
 Repositório técnico do Trabalho de Conclusão de Curso desenvolvido por **Gabriella Dantas** e **Pedro Siqueira Pereira Bitarães**, com o objetivo de analisar e comparar diferentes algoritmos de hashing aplicados à proteção de senhas em sistemas de informação.
 
----
-
 ## 🎯 Objetivos da Pesquisa
 
 O projeto investiga o comportamento dos algoritmos **Argon2**, **bcrypt** e **SHA-256**, avaliando dois aspectos complementares:
@@ -15,8 +13,6 @@ O projeto investiga o comportamento dos algoritmos **Argon2**, **bcrypt** e **SH
    Avalia a dificuldade de quebrar os hashes por meio de ataques de força bruta com o **John the Ripper**, analisando tempo de quebra, uso de CPU e memória.
 
 Essas análises permitem balancear **segurança x desempenho**, mostrando o custo computacional de proteger uma senha e o esforço necessário para quebrá-la.
-
----
 
 ## ⚙️ Metodologia e Arquitetura Experimental
 
@@ -35,8 +31,6 @@ O script principal `run_full_benchmark.ps1` executa o ciclo completo:
 
 4. **Análise e consolidação de resultados**  
    - O script `prepare_results.py` processa os dados gerados, calcula médias e percentuais e gera gráficos e arquivos `.csv`.
-
----
 
 ## 🧪 Como Executar o Projeto
 
@@ -67,8 +61,6 @@ python -m pip install -r requirements.txt
 
 O processo leva alguns minutos e gera automaticamente todos os resultados em /results.
 
----
-
 ## 📊 Resultados Gerados
 
 Após a execução, os principais arquivos produzidos são:
@@ -82,8 +74,6 @@ Após a execução, os principais arquivos produzidos são:
 | `plot_mem_mb.png`          | Uso médio de memória (MB)                              |
 | `plot_percent_cracked.png` | Percentual de senhas quebradas                         |
 
----
-
 ## 👥 Autores
 
 Gabriella Dantas  
@@ -91,8 +81,6 @@ Pedro Siqueira Pereira Bitaraes
 
 Orientador: Prof. **Luciana Mara Freitas Diniz**  
 Curso de *Sistemas de Informação* — Pontifícia Universidade Católica de Minas Gerais
-
----
 
 ## 📚 Licença e Uso Acadêmico
 
