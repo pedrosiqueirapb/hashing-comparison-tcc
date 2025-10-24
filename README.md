@@ -76,8 +76,7 @@ Após a execução, os principais arquivos produzidos são:
 
 ## 👥 Autores
 
-Gabriella Dantas  
-Pedro Siqueira Pereira Bitaraes
+[Gabriella Dantas de Abreu Fandim](https://github.com/gabriellaxdantas), [Pedro Siqueira Pereira Bitarães](https://github.com/pedrosiqueirapb)
 
 Orientador: Prof. **Luciana Mara Freitas Diniz**  
 Curso de *Sistemas de Informação* — Pontifícia Universidade Católica de Minas Gerais
