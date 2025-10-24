@@ -86,11 +86,11 @@ Após a execução, os principais arquivos produzidos são:
 
 ## 👥 Autores
 
-Gabriella Dantas
+Gabriella Dantas  
 Pedro Siqueira Pereira Bitaraes
 
-Orientador: Prof. [Luciana Mara Freitas Diniz]
-Curso de [Sistemas de Informação] — [Pontifícia Universidade Católica de Minas Gerais]
+Orientador: Prof. **Luciana Mara Freitas Diniz**  
+Curso de *Sistemas de Informação* — Pontifícia Universidade Católica de Minas Gerais
 
 ---
 
