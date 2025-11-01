@@ -30,7 +30,7 @@ else:
     first_col = df.columns[0]
     pw_list = df[first_col].astype(str).dropna().tolist()
 
-pw_list = [p.strip() for p in pw_list][:9]
+pw_list = [p.strip() for p in pw_list]
 
 wl_path = data_dir / "wordlist_test.txt"
 bcrypt_out = hashes_dir / f"bcrypt_test_r{args.bcrypt_rounds}.txt"
