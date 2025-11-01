@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][int]$TargetPID,
-    [int]$interval = 1,
+    [double]$interval = 0.5,
     [string]$outfile = "..\results\john_monitor.csv"
 )
 

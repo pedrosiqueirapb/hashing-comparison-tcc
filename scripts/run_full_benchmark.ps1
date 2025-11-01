@@ -56,7 +56,7 @@ function Run-John-And-Monitor {
 
     # rodar monitor_john.ps1 — este script bloqueia até o processo terminar (ele monitora o PID)
     try {
-        .\scripts\monitor_john.ps1 -TargetPID $proc.Id -interval 1 -outfile $outfile_monitor
+        .\scripts\monitor_john.ps1 -TargetPID $proc.Id -interval 0.5 -outfile $outfile_monitor
     } catch {
         Write-Warning "Falha ao executar monitor_john.ps1: $_"
     }

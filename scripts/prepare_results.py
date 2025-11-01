@@ -88,6 +88,7 @@ bar2 = ax1.bar(x + width/2, monitor_summary_df["memoria_media_MB"], width,
 ax1.set_xticks(x)
 ax1.set_xticklabels(algorithms)
 ax1.set_ylabel("Percentual de Quebra (%)  /  Memória Média (MB)")
+ax1.set_ylim(0, 15)
 ax1.set_title("Comparativo: Resistência e Uso de Memória por Algoritmo")
 ax1.legend(loc="upper right")
 ax1.grid(axis="y", linestyle="--", alpha=0.5)
@@ -116,9 +117,9 @@ if not server_df.empty:
         plt.figure(figsize=(7,5))
         ax = plt.gca()
         ax.bar(agg["algorithm"], agg["mean_s"], color="#2ca02c")
-        ax.set_yscale("log")  # <-- escala logarítmica para melhorar leitura
-        ax.set_ylabel("Tempo Médio por Hash (s) — escala log")
-        ax.set_title("Desempenho do Servidor: Tempo de Hash por Algoritmo (escala log)")
+        ax.set_yscale("log")  # escala logarítmica para melhorar leitura
+        ax.set_ylabel("Tempo Médio por Hash (s) — escala logarítmica")
+        ax.set_title("Desempenho do Servidor: Tempo de Hash por Algoritmo")
         ax.grid(axis="y", linestyle="--", alpha=0.5, which="both")
         
         for i, v in enumerate(agg["mean_s"]):
